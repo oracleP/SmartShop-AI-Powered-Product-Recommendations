@@ -19,3 +19,21 @@ SmartShop is a full-stack **e-commerce product recommendation system** designed 
 - **Deployment:** Local server / Cloud options (optional)
 
 ## Project Structure
+SmartShop/
+│
+├── frontend/
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+│
+├── backend/
+│ ├── app.py
+│ ├── models/
+│ │ └── recommendation_model.pkl
+│ └── utils.py
+│
+├── data/
+│ ├── products.csv
+│ └── trending_products.csv
+│
+└── README.md
